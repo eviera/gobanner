@@ -1,0 +1,4 @@
+- export GOPATH=$HOME/workspace/go
+- create path: ~/workspace/go/src/ 
+- clone with: git clone https://github.com/eviera/gobanner.git
+- compile: go install gobanner
