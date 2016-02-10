@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/gobanner.iml" filepath="$PROJECT_DIR$/gobanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/../gobanner_aux/gobanner_aux.iml" filepath="$PROJECT_DIR$/../gobanner_aux/gobanner_aux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gobanner_font_aux/gobanner_font_aux.iml" filepath="$PROJECT_DIR$/gobanner_font_aux/gobanner_font_aux.iml" />
     </modules>
   </component>
 </project>
