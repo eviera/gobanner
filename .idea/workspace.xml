@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c37598e6-0bed-4f69-8d18-57354ad40c5a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gobanner_font_aux/gobanner_font_aux.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gobanner_font_aux/src/Font2Matrix.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gobanner.go" afterPath="$PROJECT_DIR$/gobanner.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gobanner_font_aux/src/Font2Matrix.java" afterPath="$PROJECT_DIR$/gobanner_font_aux/src/Font2Matrix.java" />
     </list>
     <ignored path="gobanner.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,25 +29,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gobanner.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gobanner.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gobanner.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.11259259">
+              <caret line="112" column="19" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Font2Matrix.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Font2Matrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gobanner_font_aux/src/Font2Matrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.76">
-              <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="84" column="43" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,9 +91,9 @@
         <option value="$PROJECT_DIR$/aux/auxTansformMatrix.go" />
         <option value="$PROJECT_DIR$/../gobanner_aux/gobanner_aux.go" />
         <option value="$PROJECT_DIR$/../gobanner_font_aux/src/Font2Matrix.java" />
-        <option value="$PROJECT_DIR$/gobanner.go" />
         <option value="$PROJECT_DIR$/gobanner_font_aux/src/TextOverlay.java" />
         <option value="$PROJECT_DIR$/gobanner_font_aux/src/Font2Matrix.java" />
+        <option value="$PROJECT_DIR$/gobanner.go" />
       </list>
     </option>
   </component>
@@ -232,7 +226,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Font2Matrix">
+  <component name="RunManager" selected="Go Single File.go run gobanner.go">
     <configuration default="false" name="go run gobanner.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="gobanner" />
       <working_directory value="$PROJECT_DIR$" />
@@ -711,9 +705,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Font2Matrix" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TextOverlay" />
-        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run gobanner.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run gobanner.go" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Font2Matrix" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TextOverlay" />
         <item index="3" class="java.lang.String" itemvalue="Go Application.Build gobanner_aux.go and run" />
         <item index="4" class="java.lang.String" itemvalue="Go Single File.go run gobanner_aux.go" />
       </list>
@@ -743,12 +737,12 @@
       <workItem from="1454728980535" duration="24791000" />
       <workItem from="1455046521742" duration="1723000" />
       <workItem from="1455048662648" duration="2517000" />
-      <workItem from="1455066503590" duration="5786000" />
+      <workItem from="1455066503590" duration="17373000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39053000" />
+    <option name="totallyTimeSpent" value="50640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1001" extended-state="0" />
@@ -813,8 +807,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -888,6 +880,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/src.zip!/java/awt/image/BufferedImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39407408">
+          <caret line="914" column="17" selection-start-line="914" selection-start-column="17" selection-end-line="914" selection-end-column="17" />
+          <folding>
+            <element signature="e#37599#37600#0" expanded="false" />
+            <element signature="e#37675#37676#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../gobanner_aux/gobanner_aux.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -896,34 +899,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gobanner.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/src.zip!/java/awt/image/BufferedImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39407408">
-          <caret line="914" column="17" selection-start-line="914" selection-start-column="17" selection-end-line="914" selection-end-column="17" />
-          <folding>
-            <element signature="e#37599#37600#0" expanded="true" />
-            <element signature="e#37675#37676#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gobanner_font_aux/src/Font2Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76">
-          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="43" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gobanner.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11259259">
+          <caret line="112" column="19" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
