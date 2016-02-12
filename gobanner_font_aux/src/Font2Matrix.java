@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.AffineTransform;
+import java.awt.image.AffineTransformOp;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferInt;
 
@@ -47,6 +48,11 @@ public class Font2Matrix extends JPanel {
 
         g2d.setColor(Color.red);
         g2d.drawLine(0, 32, fontWidth * text.length(), 32);
+
+        AffineTransform tx = AffineTransform.getScaleInstance(1, -1);
+        tx.translate(0, -32);
+        AffineTransformOp op = new AffineTransformOp(tx, AffineTransformOp.TYPE_NEAREST_NEIGHBOR);
+        image = op.filter(image, null);
 
         g2d.dispose();
     }
