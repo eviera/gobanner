@@ -9,12 +9,13 @@ import (
 )
 
 const START_ROW byte = 32
+const LETTER_HEIGHT byte = 19
 const DOT string = "*"
 const BLANK string = " "
 
 func main() {
 
- 	letters := [95][19]uint32 {
+ 	letters := [95][LETTER_HEIGHT]uint32 {
 		{0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000}, //032=
 		{0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x1FFFC3C0,0x1FFFC3C0,0x1FFFC3C0,0x000003C0,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000}, //033=!
 		{0x00000000,0x00000000,0x00000000,0x1FF00000,0x1FF00000,0x1FF00000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x00000000,0x1FF00000,0x1FF00000,0x1FF00000,0x00000000,0x00000000,0x00000000,0x00000000}, //034="
@@ -124,18 +125,20 @@ func main() {
 	//Recorro la entrada
 	for i:= range input  {
 		//Por cada letra, busco la fila que le corresponde. Tengo que restarle 32 porque ahi empieza la serie (en el espacio)
-		row := letters[input[i] - START_ROW];
+		row := letters[input[i] - START_ROW]
 		drawLetter(row)
 		fmt.Printf("\n\n")
 	}
 
 }
 
-func drawLetter(row [19]uint32) {
-	for i:=0; i < 19; i++ {
+func drawLetter(row [LETTER_HEIGHT]uint32) {
+	var i byte = 0
+	for ; i < LETTER_HEIGHT; i++ {
 		var buffer bytes.Buffer
-		row[i] = row[i]
-		for j:=0; j < 32; j++ {
+		buffer.WriteString(fmt.Sprintf("%s%s%s", BLANK, BLANK, BLANK))
+		var j byte = 0		
+		for ; j < START_ROW; j++ {
 			if (row[i] & uint32(math.Pow(2, float64(j))) > 0) {buffer.WriteString(DOT)} else {buffer.WriteString(BLANK)}
 		}
 		fmt.Println(buffer.String())
